@@ -1,7 +1,7 @@
 <h1 align="center">Next Level Week 04 - NPS API</h1>
 
 <h2 align="center">
-    <img alt="Next level Week 04" src="./src/assets/banner.jpg">
+    <img height="325" alt="Next level Week 04" src="./src/assets/banner.jpg">
 </h2>
 
 <br/>
@@ -11,12 +11,13 @@
 </p>
 
 <p align="center">
-    Next Level Week is an event driven by <a href="https://rocketseat.com.br/">Rocketseat</a> to build an application from scratch. The project consists in a NPS (Net Promoter Score) API.
+    Next Level Week is an event driven by <a target="_blank" href="https://rocketseat.com.br/">Rocketseat</a> to build an application from scratch. The project consists in a NPS (Net Promoter Score) API.
 </p>
 
 <p align="center">
-    <a href="#">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#">License</a>
+    <a href="#-technologies">Technologies</a>
+    &nbsp;|&nbsp;
+    <a href="#-license">License</a>
 </p>
 
 ## 🛠️ Technologies
