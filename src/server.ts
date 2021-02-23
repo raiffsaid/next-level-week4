@@ -1,13 +1,11 @@
+import 'reflect-metadata'
 import express from 'express';
+import './database'; // Não precisa especificar o index na pasta
+import { router } from './routes';
 
 const app = express();
 
-app.get('/', (request, response) => {
-    return response.json({ message: 'Hello World - NLW04'} );
-});
+app.use(express.json()); // Inicializar antes das rotas
+app.use(router);
 
-app.post('/', (request, response) => {
-    return response.json({ message: 'Data saved' });
-});
-
-app.listen(3333, () => console.log('Server Running'));
+app.listen(3333, () => console.log('Server is running'));
