@@ -1,7 +1,7 @@
 <h1 align="center">Next Level Week 04 - NPS API</h1>
 
 <h2 align="center">
-    <img height="325" alt="Next level Week 04" src="./src/assets/banner.jpg">
+    <img height="375" alt="Next level Week 04" src="./src/assets/banner.jpg">
 </h2>
 
 <br/>
@@ -27,6 +27,7 @@ This project is being developed with the following technologies:
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
 - [Yarn](https://yarnpkg.com/)
+- [TypeORM](https://typeorm.io/)
 
 ## 📝️ License
 
