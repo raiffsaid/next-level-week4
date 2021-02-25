@@ -27,7 +27,7 @@ class UserController {
         // Necessário criar o usuário antes utilizando o repositório antes de salvar
         await usersRepository.save(user); 
 
-        return response.json(user);
+        return response.status(201).json(user);
     }
 }
 
