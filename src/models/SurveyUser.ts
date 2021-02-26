@@ -1,4 +1,6 @@
-import { Column, CreateDateColumn, Entity, PrimaryColumn } from "typeorm";
+import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryColumn } from "typeorm";
+import { User } from "./User";
+import { Survey } from "./Survey";
 import { v4 as uuid } from 'uuid';
 
 @Entity("surveys_users")
@@ -9,8 +11,16 @@ class SurveyUser {
     @Column() //Se nome da columa = atributo, não precisa passar no parâmetro
     user_id: string;
 
+    @ManyToOne(() => User)
+    @JoinColumn({ name: 'user_id' })
+    user: User;
+
     @Column()
     survey_id: string;
+
+    @ManyToOne(() => Survey)
+    @JoinColumn({ name: 'survey_id' })
+    survey: Survey;
 
     @Column()
     value: number;
